@@ -1,0 +1,70 @@
+/*
+ * Theme Name: caleighm
+ *
+ * Layout: Content-Sidebar
+ *
+ * Learn more: https://developer.wordpress.org/themes/basics/template-files/
+*/
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+    max-width: 780px;
+    max-width: 78rem;
+}
+
+@media screen and (min-width: 1160px) {
+    .content-area {
+            float: left;
+            width: 100%;
+            margin-left: -380px;
+            padding-left: 380px;
+    }
+    .entry-header,
+    .entry-content,
+    .entry-meta,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation {
+        margin-right: 0;
+    }
+    
+    .site-content .widget-area {
+	width: 380px;
+        float: right;
+        padding: 4rem;
+        padding-right: 10%;
+        background: #fff;
+        }
+        
+    .site-footer {
+	clear: both;
+	width: 100%;
+        }
+}
+
+@media screen and (max-width: 1159px){
+    .widget-area {
+	width: 100%;
+        float: left;
+        margin: 1em auto 0;
+        padding: 0px;
+    }
+    
+    .site-content {
+        padding: 0 10%;
+    }
+    
+    .widget-img {
+        margin: auto;
+        border-radius: 50%;
+        display: block;
+        text-align: center;
+    }
+}
